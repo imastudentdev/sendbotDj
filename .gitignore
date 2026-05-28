@@ -7,7 +7,6 @@ staticfiles/
 media/
 
 # Environment
-.env
 .DS_Store
 
 # Database (faqat development uchun)
