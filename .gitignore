@@ -1,62 +1,23 @@
+# Django
+*.pyc
+*.pyo
+__pycache__/
+*.log
+staticfiles/
+media/
+
+# Environment
+.env
+.DS_Store
+
+# Database (faqat development uchun)
+db.sqlite3
+
 # Virtual Environment
 venv/
 env/
-ENV/
 .venv/
-__pycache__/
-*.py[cod]
-*$py.class
 
-# Django
-*.log
-*.pot
-*.pyc
-db.sqlite3
-db.sqlite3-journal
-media/
-staticfiles/
-static_root/
-collected_static/
-
-# Environment variables
-.env
-.env.*
-.DS_Store
-
-# IDE va Editor fayllari
+# IDE
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
-
-# Python
-pip-log.txt
-pip-delete-this-directory.txt
-.python-version
-
-# Django migrations fayllari ichidagi keraksizlar
-**/migrations/__pycache__/
-
-# Static va Media (Render.com da build paytida yig'iladi)
-static/
-media/
-
-# Local development files
-*.sqlite3
-debug.log
-
-# Deployment
-gunicorn.log
-*.pid
-
-# MacOS
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-
